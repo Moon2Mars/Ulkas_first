@@ -12,7 +12,7 @@ int num1,num2, output;
 Scanner input = new Scanner(System.in);
 System.out.println("Enter first number");
 num1 = input.nextInt();
-System.out.println("Enter Operation: +, -, *, /, Modulus ");
+System.out.println("Enter Operation and: +, -, *, /, Modulus ");
 
 operation = input.next().charAt(0);
 System.out.println("Enter Second number");
